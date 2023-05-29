@@ -34,6 +34,13 @@ public class Main {
     }
     public static void task3(){
         System.out.println("Задача 3.");
+        int year=2021;
+        int yearDays=365;//В 2021 году 365 дней
+        if (yearDays==366)
+            System.out.println(year+"год является високосным.");
+        else if (yearDays==365)
+            System.out.println(year+"год не является високосным.");
+
 
     }
     public static void task4(){
