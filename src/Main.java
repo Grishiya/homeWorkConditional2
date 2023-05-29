@@ -4,7 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
-
+        task5();
     }
 
     public static void task1() {
@@ -43,6 +43,7 @@ public class Main {
 
     }
 
+
     public static void task4() {
         System.out.println("Задача 4.");
         int deliveryDistance = 95;
@@ -55,6 +56,50 @@ public class Main {
         else
             System.out.println("Доставки нет.");
     }
-}
 
+    public static void task5() {
+        System.out.println("Задача 5.");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Январь - зима.");
+                break;
+            case 2:
+                System.out.println("Февраль - зима.");
+                break;
+            case 3:
+                System.out.println("Март - весна.");
+                break;
+            case 4:
+                System.out.println("Апрель - весна.");
+                break;
+            case 5:
+                System.out.println("Май - весна.");
+                break;
+            case 6:
+                System.out.println("Июнь - лето.");
+                break;
+            case 7:
+                System.out.println("Июль - лето.");
+                break;
+            case 8:
+                System.out.println("Август - лето.");
+                break;
+            case 9:
+                System.out.println("Сентябрь - осень.");
+                break;
+            case 10:
+                System.out.println("Октябрь - осень.");
+                break;
+            case 11:
+                System.out.println("Ноябрь - осень.");
+                break;
+            case 12:
+                System.out.println("Декабрь - зима");
+            break;
+            default:
+                System.out.println("Такого месяца не существует.");
+        }
+    }
+}
 
