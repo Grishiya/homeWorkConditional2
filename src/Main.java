@@ -59,7 +59,7 @@ public class Main {
 
     public static void task5() {
         System.out.println("Задача 5.");
-        int monthNumber = 12;
+        int monthNumber = 13;
         switch (monthNumber) {
             case 1:
                 System.out.println("Январь - зима.");
@@ -99,6 +99,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Такого месяца не существует.");
+                System.out.println("proverka");
         }
     }
 }
