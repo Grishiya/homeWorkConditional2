@@ -8,15 +8,14 @@ public class Main {
     }
     public static void task1() {
         System.out.println("Задача 1.");
-        int clientOs = 1;
+        int clientOs = 0;
         int android = 1;
         int iOS = 0;
         if (clientOs == iOS) {
             System.out.println("Установите версию приложения для iOS по ссылке.");
-            if (clientOs == android) {
+        }  if (clientOs == android) {
                 System.out.println("Установите версию приложения для Android по ссылке.");
             }
-        }
     }
 
 
@@ -54,11 +53,11 @@ public class Main {
 
     public static void task4() {
         System.out.println("Задача 4.");
-        int deliveryDistance = 95;
+        int deliveryDistance = 25;
         int deliveryDays = 1;
         if (deliveryDistance < 20) {
             System.out.println("Потребуется дней: " + deliveryDays + ".");
-         if (deliveryDistance >= 20 && deliveryDistance < 60) {
+        } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
                 System.out.println("Потребуется дней: " + (deliveryDays + 1) + ".");
             } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
              System.out.println("Потребуется дней: " + (deliveryDays + 2) + ".");
@@ -66,7 +65,6 @@ public class Main {
                 System.out.println("Доставки нет.");
             }
         }
-    }
 
     public static void task5() {
         System.out.println("Задача 5.");
